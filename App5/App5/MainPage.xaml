@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="App5.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="303" Margin="145,48,0,0" VerticalAlignment="Top" Width="334">
+            <Image x:Name="I1" HorizontalAlignment="Left" VerticalAlignment="Top" Source="Assets/未命名-1.png" Margin="-77,27,-52,-124" Height="398" Stretch="Fill"/>
+        </Border>
+        <Button x:Name="U1" Content="衣服" HorizontalAlignment="Left" Height="99" Margin="567,45,0,0" VerticalAlignment="Top" Width="238" Click="U1_Click"/>
+        <Button x:Name="U2" Content="褲子" HorizontalAlignment="Left" Height="107" Margin="567,184,0,0" VerticalAlignment="Top" Width="238" Click="U2_Click"/>
+        <Button x:Name="U3" Content="鞋子" HorizontalAlignment="Left" Height="100" Margin="567,330,0,0" VerticalAlignment="Top" Width="238" Click="U3_Click"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="352" Margin="135,356,0,0" VerticalAlignment="Top" Width="334">
+            <Image x:Name="I2" VerticalAlignment="Top" Margin="-88,-463,-188,-295" Source="Assets/pant/blackp.png" HorizontalAlignment="Left" Height="1108" Width="608" Stretch="Fill"/>
+        </Border>
+        <Grid x:Name="g1" HorizontalAlignment="Left" Height="594" Margin="843,48,0,0" VerticalAlignment="Top" Width="481">
+            <Button x:Name="G1B1" Content="黑色" HorizontalAlignment="Left" Margin="23,21,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G1B1_Click"/>
+            <Button x:Name="G1B2" Content="藍色" HorizontalAlignment="Left" Margin="159,21,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G1B2_Click"/>
+            <Button x:Name="G1B3" Content="灰色" HorizontalAlignment="Left" Margin="293,21,0,0" VerticalAlignment="Top" Height="56" Width="110"  Click="G1B3_Click"/>
+            <Button x:Name="G1B4" Content="綠色" HorizontalAlignment="Left" Margin="23,112,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G1B4_Click"/>
+            <Button x:Name="G1B5" Content="橘色" HorizontalAlignment="Left" Margin="159,112,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G1B5_Click"/>
+            <Button x:Name="G1B6" Content="紫色" HorizontalAlignment="Left" Margin="293,112,0,0" VerticalAlignment="Top" Height="56" Width="110"  Click="G1B6_Click"/>
+            <Button x:Name="G1B7" Content="紅色" HorizontalAlignment="Left" Margin="23,199,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G1B7_Click"/>
+            <Button x:Name="G1B8" Content="白色" HorizontalAlignment="Left" Margin="159,199,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G1B8_Click"/>
+            <Button x:Name="G1B9" Content="黃色" HorizontalAlignment="Left" Margin="293,199,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G1B9_Click"/>
+            <Button x:Name="G1B0" Content="Button" HorizontalAlignment="Left" Margin="23,284,0,0" VerticalAlignment="Top" Height="56" Width="110" />
+        </Grid>
+        <Grid x:Name="g2" HorizontalAlignment="Left" Height="594" Margin="843,48,0,0" VerticalAlignment="Top" Width="481">
+            <Button x:Name="G2B1" Content="黑色" HorizontalAlignment="Left" Margin="23,21,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G2B1_Click"/>
+            <Button x:Name="G2B2" Content="青色" HorizontalAlignment="Left" Margin="159,21,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G2B2_Click"/>
+            <Button x:Name="G2B3" Content="藍色" HorizontalAlignment="Left" Margin="293,21,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G2B3_Click"/>
+            <Button x:Name="G2B4" Content="灰色" HorizontalAlignment="Left" Margin="23,112,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G2B4_Click"/>
+            <Button x:Name="G2B5" Content="綠色" HorizontalAlignment="Left" Margin="159,112,0,0" VerticalAlignment="Top" Height="56" Width="110"  Click="G2B5_Click"/>
+            <Button x:Name="G2B6" Content="橘色" HorizontalAlignment="Left" Margin="293,112,0,0" VerticalAlignment="Top" Height="56" Width="110"  Click="G2B6_Click"/>
+            <Button x:Name="G2B7" Content="紫色" HorizontalAlignment="Left" Margin="23,199,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G2B7_Click"/>
+            <Button x:Name="G2B8" Content="紅色" HorizontalAlignment="Left" Margin="159,199,0,0" VerticalAlignment="Top" Height="56" Width="110"  Click="G2B8_Click"/>
+            <Button x:Name="G2B9" Content="白色" HorizontalAlignment="Left" Margin="293,199,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G2B9_Click"/>
+            <Button x:Name="G2B0" Content="Button" HorizontalAlignment="Left" Margin="23,284,0,0" VerticalAlignment="Top" Height="56" Width="110"/>
+        </Grid>
+        <Grid x:Name="g3" HorizontalAlignment="Left" Height="594" Margin="843,48,0,0" VerticalAlignment="Top" Width="481">
+            <Button x:Name="G3B1" Content="黑色" HorizontalAlignment="Left" Margin="23,21,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G3B1_Click"/>
+            <Button x:Name="G3B2" Content="青色" HorizontalAlignment="Left" Margin="159,21,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G3B2_Click"/>
+            <Button x:Name="G3B3" Content="咖啡色" HorizontalAlignment="Left" Margin="293,21,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G3B3_Click"/>
+            <Button x:Name="G3B4" Content="藍色" HorizontalAlignment="Left" Margin="23,112,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G3B4_Click"/>
+            <Button x:Name="G3B5" Content="灰色" HorizontalAlignment="Left" Margin="159,112,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G3B5_Click"/>
+            <Button x:Name="G3B6" Content="綠色" HorizontalAlignment="Left" Margin="293,112,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G3B6_Click"/>
+            <Button x:Name="G3B7" Content="橘色" HorizontalAlignment="Left" Margin="23,199,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G3B7_Click"/>
+            <Button x:Name="G3B8" Content="粉紅色" HorizontalAlignment="Left" Margin="159,199,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G3B8_Click"/>
+            <Button x:Name="G3B9" Content="紫色" HorizontalAlignment="Left" Margin="293,199,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G3B9_Click"/>
+            <Button x:Name="G3B0" Content="紅色" HorizontalAlignment="Left" Margin="23,284,0,0" VerticalAlignment="Top" Height="56" Width="110" Click="G3B0_Click"/>
+        </Grid>
+        <Image x:Name="I3" HorizontalAlignment="Left" Margin="202.011,561.281,0,-50.031" VerticalAlignment="Top" Source="Assets/shoes/black_shoes.png" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Width="238.974" Height="256.75" Stretch="Fill">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="-0.02"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="668" Margin="135,75,0,0" VerticalAlignment="Top" Width="363" Source="Assets/假人.png" Stretch="Fill" NineGrid="0" Canvas.ZIndex="-1"/>
+    </Grid>
+</Page>
